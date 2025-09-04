@@ -57,3 +57,8 @@ def angular_vel(theta, dt):
 
 def angular_acc(theta, dt):
     return np.gradient(angular_vel(theta, dt), dt, edge_order=2)
+
+def rms_jerk(sig, dt):
+    """Root-mean-square jerk (3rd derivative of position)."""
+    jerk = np.gradient(acc(sig, dt), dt, edge_order=2)
+    return np.sqrt(np.mean(jerk**2))

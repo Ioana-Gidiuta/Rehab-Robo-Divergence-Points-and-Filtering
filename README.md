@@ -16,7 +16,9 @@ University of Pennsylvania
 ---
 
 ## Repository Structure
-- **smoothing.ipynb** – Main notebook for exploring filtering methods  
+- **smoothing.ipynb** – Main notebook for exploring filtering methods (shifts in feature distribution; frame-wise and window-wise displacements of keypoints)
+- **feature_extraction.ipynb** - Notebook for computing 6 sets of features: posture, symmetry, smoothness, range, variability, effort (for different filtering methods)
+- **ioc_divergence.ipynb** - Notebook used for quantifying the effect of feature sets (obtained via different fitering methods) on donwnstream clasiffication  
 - **constants.py** – Project constants used across scripts  
 - **feature_computation.py** – Functions for computing movement features (velocity, acceleration, etc.)  
 - **feature_extraction.py** – Extracts features for 4 keypoint sets: wrists, elbows, knees, ankles  

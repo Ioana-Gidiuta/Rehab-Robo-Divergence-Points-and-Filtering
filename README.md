@@ -1,4 +1,4 @@
-# Infant Movement Analysis and Tracking – Summer 2025 Research
+# Impact of Filtering on Early Identification of Atypical Infant Movement Patterns
 
 This repository contains code and experiments for analyzing and tracking infant movement patterns.  
 The project explores two main research directions:
